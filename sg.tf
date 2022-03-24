@@ -1,5 +1,5 @@
 resource "aws_security_group" "ec2_demo_sg" {
-  name        = "ec2_module_demo"
+  name        = "ec2_module_demo_test"
   description = "Allow HTTP inbound traffic"
 
   ingress {
